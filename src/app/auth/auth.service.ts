@@ -18,7 +18,7 @@ const httpOptions = {
 @Injectable()
 export class AuthService implements OnInit {
 
-  private Url = 'localhost:8081/api/country-masters';  // URL to web api
+  private Url = 'http://localhost:8081/api/country-masters';  // URL to web api
 
   constructor(private http: HttpClient, private messageService: MessageService) { }
 
